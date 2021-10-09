@@ -4,6 +4,7 @@ class Palavra:
     def __init__(self):
         self.__palavra = self.gera_nova_palavra()
 
+    #palavras retiradas do site https://www.palabrasaleatorias.com/palavras-aleatorias.php
     def gera_nova_palavra(self):
         with open('lista_de_palavras.csv', 'r') as arquivo:
             palavras = []
